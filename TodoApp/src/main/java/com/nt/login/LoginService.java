@@ -1,6 +1,9 @@
-package com.nt;
+package com.nt.login;
 
-public class UserValidationService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class LoginService {
 	
 	public boolean isUserValid(String user, String password) {
 		if (user.equals("gujunilesh") && password.equals("pass"))
