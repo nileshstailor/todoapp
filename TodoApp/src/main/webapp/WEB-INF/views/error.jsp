@@ -1,9 +1,4 @@
 <%@ include file="common/header.jspf"%>
 <%@ include file="common/navigation.jspf"%>
-
-welcome ${name} ${password}.<br/>
-
-Now you can <a href="/list-todos">manage your todos.</a>
-
-
+Application has encounted an error. Please contact support by dialling 411.
 <%@ include file="common/footer.jspf"%>
